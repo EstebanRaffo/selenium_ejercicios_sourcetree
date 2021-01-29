@@ -5,11 +5,11 @@ import org.openqa.selenium.WebElement;
 
 import java.util.List;
 
-public class Cotizaciones {
+public class CotizacionesPage {
 
     public WebDriver driver;
 
-    public Cotizaciones(WebDriver remote_driver){
+    public CotizacionesPage(WebDriver remote_driver){
         driver = remote_driver;
     }
 

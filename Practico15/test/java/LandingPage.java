@@ -2,12 +2,10 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
-import java.util.List;
-
-public class SettingPage {
+public class LandingPage {
     public WebDriver driver;
 
-    public SettingPage(WebDriver remote_driver){
+    public LandingPage(WebDriver remote_driver){
         driver = remote_driver;
     }
 
@@ -26,8 +24,8 @@ public class SettingPage {
         return driver;
     }
 
-    public Cotizaciones enterToQuotation(WebDriver driver_quotes){
-        return new Cotizaciones(driver_quotes);
+    public CotizacionesPage enterToQuotation(WebDriver driver_quotes){
+        return new CotizacionesPage(driver_quotes);
     }
 
 }
